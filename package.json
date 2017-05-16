@@ -1,0 +1,24 @@
+{
+  "name": "social_apps",
+  "version": "1.0.0",
+  "description": "All social apps under a single window",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . social_apps --asar --icon=logo.ico --platform=win32 --arch=ia32"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SirsenduGope/Social-Apps.git"
+  },
+  "author": "Sirsendu_Gope",
+  "license": "ISG",
+  "bugs": {
+    "url": "https://github.com/SirsenduGope/Social-Apps/issues"
+  },
+  "homepage": "https://github.com/SirsenduGope/Social-Apps#readme",
+  "devDependencies": {
+    "electron": "^1.6.7",
+    "electron-packager": "^8.7.0"
+  }
+}
