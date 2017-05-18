@@ -9,7 +9,7 @@ const BrowserWindow = electron.BrowserWindow;
 
 var mainWindow;
 app.on('ready',function(){
-	mainWindow = new BrowserWindow({width:1366, height: 400, icon: __dirname 
+	mainWindow = new BrowserWindow({width:1000, height: 600, icon: __dirname 
 	 + '/logo.ico'});
 	mainWindow.setMenu(null);
 	mainWindow.loadURL(url.format({
